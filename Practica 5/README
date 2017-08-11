@@ -1,0 +1,5 @@
+Utilizando el módulo UART del FRDM-KL25 y el software emulador de terminales Tera Term, se realizó una aplicación de consola de comandos simple.
+
+El usuario puede teclear hasta 10 comandos diferentes en la terminal, cada uno soportando el envío de hasta 1 o 2 parámetros adicionales.
+
+Los comandos disponibles incluyen comandos VT100, regulación de los LEDs RGB del FRDM-KL25 utilizando el módulo de PWM, imprimir la temperatura actual medida por un LM35 externo, encender o apagar un LED o buzzer externo e imprimir continuamente la medición de voltaje proveniente de un potenciómetro externo.
