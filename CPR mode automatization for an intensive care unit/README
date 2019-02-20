@@ -1,11 +1,11 @@
 Para el proyecto final de esta materia, el objetivo fue crear una aplicación que automatice el mecanismo de paro de una unidad de cuidados intensivos.
 
 Para ello, durante 2 semanas, se elaboró lo siguiente:
--Circuito de ECG con amplificación y filtrado adecuado.
--Sistema de alarma con Buzzer.
--Programa para leer con ADC la señal de ECG, controlar el Buzzer y controlar motores a pasos utilizando PWM, utilizando el microcontrolador FRDM-KL25. 
--Circuito de demultiplexeo para controlar 3 motores independientemente utilizando solo 4 canales de PWM.
--Modelo a escala de una cama de cuidados intensivos, en donde cada motor controla un movimiento de la cama: Tren/Tren invertido, Rotación izquierda/Rotación derecha y Ascenso/Descenso.
+- Circuito de ECG con amplificación y filtrado adecuado.
+- Sistema de alarma con Buzzer.
+- Programa para leer con ADC la señal de ECG, controlar el Buzzer y controlar motores a pasos utilizando PWM, utilizando el microcontrolador FRDM-KL25. 
+- Circuito de demultiplexeo para controlar 3 motores independientemente utilizando solo 4 canales de PWM.
+- Modelo a escala de una cama de cuidados intensivos, en donde cada motor controla un movimiento de la cama: Tren/Tren invertido, Rotación izquierda/Rotación derecha y Ascenso/Descenso.
 
 Utilizando el control con botones de una cama de cuidados intensivos de verdad, se pueden ajustar los movimientos de la cama. La señal de ECG del paciente va a estar siendo monitoreada continuamente. En el momento en que se deje de detectar un pulso por 10 segundos, el sistema de alarma se activa, el control de la cama se bloquea y la cama ajusta su posición para entrar automáticamente en modo de paro.
 
